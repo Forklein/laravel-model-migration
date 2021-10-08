@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', 'HomeController@index')->name('home');
+
+Route::prefix('/travels')->name('travels.')->group(function () {
+    Route::get('', 'TravelController@index')->name('index');
+    Route::get('/{id}', 'TravelController@show')->name('show');
 });
