@@ -1,11 +1,11 @@
 @extends('layouts.main')
 
-@section('title', 'Travels')
+@section('title', 'Index')
 
 @section('content')
 
 <section id="travels">
-    <div class="container">
+    <div class="container mt-5">
         @forelse($travels as $travel)
         <div class="card border-info mb-3 col-6 mx-auto text-center">
             <div class="card-header bg-transparent border-success">

@@ -5,7 +5,7 @@
 @section('content')
 
 <section id="travel">
-    <div class="container">
+    <div class="container mt-5">
         <div class="card border-info mb-3 col-6 mx-auto text-center">
             <div class="card-header bg-transparent border-success">
                 Destinazione: {{$travel->destination}}

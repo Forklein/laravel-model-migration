@@ -4,8 +4,9 @@
 
 @section('content')
 <section id="home">
-    <div class="container">
-        <h1 class="text-center">Home</h1>
+    <div class="container text-center mt-5">
+        <h1>Home</h1>
+        <p>Clicca la sezione Travels nel menù per visualizzare i pacchetti</p>
     </div>
 </section>
 @endsection
